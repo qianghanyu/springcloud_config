@@ -1,2 +1,7 @@
+spring:
+  application:
+    name: springcloud-config-dev
+  profiles:
+    active: dev
 config:
-  info: main branch,springcloud-config/config-prod.yml version=1
+    info: master branch, springcloud-config/config-dev.yml version=2
